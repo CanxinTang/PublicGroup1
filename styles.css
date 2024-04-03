@@ -41,7 +41,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: none; /* Removed the border for a cleaner look */
+    border: none;
+    /* Removed the border for a cleaner look */
 }
 
 .nav-flex-container>div {
@@ -49,21 +50,28 @@ nav {
     text-align: center;
     font-size: 2em;
     color: #ffeead;
-    background-color: transparent; /* Removed specific background colors for a more elegant look */
+    background-color: transparent;
+    /* Removed specific background colors for a more elegant look */
 }
 
 /* Main content styles */
 main {
     display: flex;
-    flex-wrap: wrap; /* Added to allow the flex items to wrap */
-    justify-content: space-around; /* Distributes space around items */
-    align-content: space-around; /* Distributes space vertically */
+    flex-wrap: wrap;
+    /* Added to allow the flex items to wrap */
+    justify-content: space-around;
+    /* Distributes space around items */
+    align-content: space-around;
+    /* Distributes space vertically */
 }
 
 section {
-    margin: 10px; /* Reduced margin for a cleaner look */
-    flex-basis: calc(50% - 20px); /* Sets the base size for each section, accounting for margin */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Added subtle shadow for depth */
+    margin: 10px;
+    /* Reduced margin for a cleaner look */
+    flex-basis: calc(50% - 20px);
+    /* Sets the base size for each section, accounting for margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Added subtle shadow for depth */
 }
 
 /* Footer styles */
@@ -91,5 +99,6 @@ button:focus {
 body {
     color: #333;
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif; /* Applied Google Font */
+    font-family: 'Open Sans', sans-serif;
+    /* Applied Google Font */
 }
