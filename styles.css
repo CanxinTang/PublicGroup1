@@ -102,6 +102,12 @@ a:visited{
 a:hover{
     color: red;
 }
+/* Styling the Social Icons */
+.socialIcons a i{
+    font-size: 1em;
+    color:black;
+    opacity: 0.9; 
+}
 
 /* Ensure text contrast */
 body {
