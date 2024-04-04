@@ -118,7 +118,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* Applied Google Font */
 }
+/* Just added this to shrink the image but still a lot of whitespace
+create each section as a box with some with and height then make the image fit into that*/
 img{
+
     height: 500px;
     object-fit: contain;
     
