@@ -58,11 +58,14 @@ svg {
 main {
     display: flex;
     flex-wrap: wrap;
+    /* Switched it to columns for better image view*/
+    flex-direction: column;
     /* Added to allow the flex items to wrap */
     justify-content: space-around;
     /* Distributes space around items */
     align-content: space-around;
     /* Distributes space vertically */
+    
 }
 
 section {
@@ -99,7 +102,7 @@ a:visited{
     color: white;
 }
 a:hover{
-    color: red;
+    color: green;
 }
 /* Styling the Social Icons */
 .socialIcons a i{
@@ -114,4 +117,9 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     /* Applied Google Font */
+}
+img{
+    height: 500px;
+    object-fit: contain;
+    
 }
