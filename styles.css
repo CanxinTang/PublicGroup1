@@ -139,3 +139,19 @@ a:link {
 a:active {
     color: yellow;
 }
+
+
+/* 2. Input Pseudo-Classes: */   
+ /* no input so far ? */
+input:focus {
+    border: 2px solid green;
+}
+
+input:disabled {
+    background-color: lightgray;
+}
+
+
+
+
+
