@@ -152,6 +152,36 @@ input:disabled {
 }
 
 
+/* ******************** */
+/* Add general styles for all nav items */
+.nav-flex-container > div::before,
+.nav-flex-container > div::after {
+    font-family: 'Font Awesome 6 Free'; /* Adjusted for Font Awesome 6 */
+    font-weight: 900; /* Ensure solid icons are used */
+    content: ""; /* Default content is empty, will be set for each nav item */
+    padding-right: 0.5em; /* Space between icon and text */
+    display: inline-block; /* Ensure icons align correctly with text */
+}
 
+/* Add specific icons for each nav item */
+.nav-flex-container > div.home::before {
+    content: "\f015"; /* Font Awesome 'home' icon */
+}
 
+.nav-flex-container > div.search::before {
+    content: "\f002"; /* Font Awesome 'search' icon */
+}
+
+.nav-flex-container > div.login::before {
+    content: "\f2f6"; /* Font Awesome 'sign-in-alt' icon */
+}
+
+.nav-flex-container > div.logout::before {
+    content: "\f2f5"; /* Font Awesome 'sign-out-alt' icon */
+}
+
+/* Example of adding decorative symbols after each nav item */
+.nav-flex-container > div::after {
+    content: "\00a0"; /* Non-breaking space for symmetry; replace with desired content */
+}
 
