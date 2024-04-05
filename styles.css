@@ -92,18 +92,6 @@ input[type="email"] {
     margin-right: 10px;
 }
 
-/* Accessibility features */
-a:focus,
-button:focus {
-    outline: 2px solid blue;
-}
-/* Added style so the link doesn't change when clicked and changes when hovering */
-a:visited{
-    color: white;
-}
-a:hover{
-    color: green;
-}
 /* Styling the Social Icons */
 .socialIcons a i{
     font-size: 1em;
@@ -125,4 +113,29 @@ img{
     height: 500px;
     object-fit: contain;
     
+}
+
+/* ***************************************************** */
+/* persuduo ssss  */
+
+/* 1. Link Pseudo-Classes: */
+/* Accessibility features */
+a:focus,
+button:focus {
+    outline: 2px solid blue;
+}
+/* Added style so the link doesn't change when clicked and changes when hovering */
+a:visited{
+    color: white;
+}
+a:hover{
+    color:lightblue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
 }
