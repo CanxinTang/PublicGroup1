@@ -1,3 +1,5 @@
 # PublicGroup1
 
-I might move the contents from temp to main branch on 4/4
+### publicly deployed webpage address: 
+
+## [6 Tourist Destinations (publicgroup1.onrender.com)](https://publicgroup1.onrender.com/)
