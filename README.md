@@ -8,4 +8,4 @@
 
 
 
-deployed web does not need to update in Render after source code is changed.
+deployed web does not need to update manually in Render after source code is changed.
