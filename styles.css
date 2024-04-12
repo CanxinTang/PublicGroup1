@@ -184,4 +184,7 @@ input:disabled {
 .nav-flex-container > div::after {
     content: "\00a0"; /* Non-breaking space for symmetry; replace with desired content */
 }
-
+/* Makes the first line of every h2 elemetn bold.*/
+h2::first-line{
+    font-weight:bolder;   
+}
